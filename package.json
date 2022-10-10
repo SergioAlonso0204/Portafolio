@@ -1,0 +1,26 @@
+{
+  "name": "portafiolio",
+  "version": "1.0.0",
+  "description": "Portafolio JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioAlonso0204/Portafolio.git"
+  },
+  "author": "Sergio Alonso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioAlonso0204/Portafolio/issues"
+  },
+  "homepage": "https://github.com/SergioAlonso0204/Portafolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

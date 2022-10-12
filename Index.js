@@ -23,11 +23,17 @@ app.get('/Academico', (req, res) => {
 });
 
 app.get('/informacion', (req, res) => {
-    res.send('Informacion Personal')
+    res.render('Informacion', {
+    titulo: "Seccion Personal",
+    descripcion: "Aqui encontraras mi informacion personal"
+    })
 });
 
 app.get('/laboral', (req, res) => {
-    res.send('Perfil laboral')
+    res.render('laboral', {
+    titulo : "Seccion Laboral",
+    descripcion: "Aqui encontraras mi experiencia laboral"
+    })
 });
 
 app.use((req, res, next) => {
